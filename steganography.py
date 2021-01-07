@@ -50,7 +50,7 @@ class Steganography(object):
                 mask_coor=modified_mask[y,x]
                 blank_img[y,x]=self.hide_pixel(mask_coor,secret_coor)
         return blank_img
-        
+
     def decrypt_image(self,a): # unhide the secret image from the mask and return secret image  
         decrypted_blank_img=self.create_blank_image()
         for x in range (0,a.shape[0],1):
