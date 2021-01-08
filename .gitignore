@@ -2,3 +2,5 @@
 /__pycache__
 /.vscode
 /Resources/.ipynb_checkpoints
+/decrypted_images
+/encrypted_images
